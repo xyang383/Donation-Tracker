@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.jenson.cs2340_team24_project">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission
+        android:name="com.example.jenson.cs2340_team24_project.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.jenson.cs2340_team24_project.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permissions.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".UI.Controllers.WelcomeActivity"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCfH31tSvP5c2p88GguEzXpp0BuemT6hRM" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".UI.Controllers.HomeActivity"
+            android:label="Welcome"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".UI.Controllers.RegisterActivity"
+            android:label="Register"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".UI.Controllers.LoginActivity"
+            android:label="Login"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".UI.Controllers.ViewLocationActivity"
+            android:label="Locations"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".UI.Controllers.DetailLocationActivity"
+            android:label="Location Details"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".UI.Controllers.ApplicationActivity"
+            android:label="Home"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".UI.Controllers.ViewDonationActivity"
+            android:label="Donations"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".UI.Controllers.AddDonationActivity"
+            android:label="Add Donation"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".UI.Controllers.DetailDonationActivity"
+            android:label="Donation Detail"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".UI.Controllers.SearchDonationActivity"
+            android:label="Search Donations"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".UI.Controllers.MapsActivity"
+            android:label="Map"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".UI.Controllers.SearchDonationResultActivity"
+            android:label="Result"
+            tools:ignore="InnerclassSeparator" />
+        <activity android:name=".UI.Controllers.ForgotPasswordActivity"></activity>
+    </application>
+
+</manifest>

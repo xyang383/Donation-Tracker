@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Controllers.DetailLocationActivity"
+    android:weightSum="100">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="50"
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@null"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:id="@+id/name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/Name"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:id="@+id/type"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/Name"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:id="@+id/longitude"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/Name"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:id="@+id/latitude"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/Name"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:id="@+id/address"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/Name"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:id="@+id/phone"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/Name"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:id="@+id/website"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/Name"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_weight="1"
+        android:text="@string/ViewDonations" />
+
+    <Button
+        android:id="@+id/detailLocationBack"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/back" />
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">CS2340-Team24-Project</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="username">Username</string>
+
+    <!-- Strings related to register -->
+    <string name="prompt_register">Register</string>
+    <!-- String related to logout -->
+    <string name="prompt_logout">LOG OUT</string>
+    <!-- String related to view location data -->
+    <string name="prompt_viewdata">VIEW DATA</string>
+    <string name = "google_map_API_key" >AIzaSyCfH31tSvP5c2p88GguEzXpp0BuemT6hRM</string>
+
+    <!-- Strings related to add donation -->
+    <string name = "timestamp" >Time Stamp</string>
+    <string name="label1" >Time Stamp</string>
+    <string name="shortDescriptionHint">Short Description</string>
+    <string name="fullDescriptionHint">Full Description</string>
+    <string name="valueHint">Value</string>
+    <string name="commentHint">Comment</string>
+
+    <!-- Strings related to searchDonation -->
+    <string name="searchDonationHint">Name</string>
+
+    <string name="Location">Location</string>
+    <string name="Category">Category</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="ViewLocations">View Locations</string>
+    <string name="SearchDonation">Search Donation</string>
+    <string name="Map">Map</string>
+    <string name="Name">Name</string>
+    <string name="ViewDonations">View Donation</string>
+    <string name="back">Back</string>
+
+    <string name="Welcome">Welcome</string>
+    <string name="search">Search</string>
+
+    <string name="addDonation">Add Donation</string>
+    <string name="textView">TextView</string>
+    <string name="Test">TEST</string>
+</resources>

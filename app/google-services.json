@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "544800386822",
+    "firebase_url": "https://cs2340-team24.firebaseio.com",
+    "project_id": "cs2340-team24",
+    "storage_bucket": "cs2340-team24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544800386822:android:303e8ad30db29d43",
+        "android_client_info": {
+          "package_name": "com.example.jenson.cs2340_team24_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544800386822-mmq0jn09m0s3mdamq960113j3510msno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jenson.cs2340_team24_project",
+            "certificate_hash": "472907c70393868869b84139f671202587b707a7"
+          }
+        },
+        {
+          "client_id": "544800386822-g7kd2se97k9erj39q9tra2ukph4fis2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATtqFt-5DkkMJXnMZQyzwnlWCAto1dAKc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544800386822-g7kd2se97k9erj39q9tra2ukph4fis2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
